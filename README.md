@@ -17,13 +17,13 @@ Ground‐motion estimation in regions with limited strong‐motion data remains 
 Results show that the trained ANN using the NGA-West2 dataset reproduces the general trends of NGA-West2 GMMs, and the transfer-learning ANN closely matches the Iranian GMMs for both PGA and spectral ordinates.  The transfer-learning model results in lower residual bias than direct Iran-only training, particularly for M > 6 and distances less than 10 km.  This demonstrates that transfer learning is an effective and powerful framework for building regional GMMs when data are sparse.
 
 ## Install the requirements <a name = "install"></a>
-* Python 3.9 and higher is required
-* Create a virtual environment: conda create -n <env_name> python=3.9.13
+* Python 3.12 and higher is required
+* Create a virtual environment: conda create -n <env_name> python=3.12.7
 * Activate the virtual environment: conda activate <env_name>
 * Intall all dependencies using pip, run the command: pip install -r requirements.txt
 ```ShellSession
 $ conda deactivate
-$ conda create -n GMM python=3.9.13 anaconda
+$ conda create -n GMM python=3.12.7 anaconda
 $ conda activate GMM
 ```
 Then, install the requirements:
